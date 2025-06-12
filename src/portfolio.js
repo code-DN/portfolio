@@ -20,18 +20,15 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Anuj Singh Rawat",
-  title: "Hi all, I'm Anuj Singh Rawat",
+  username: "Devanshu Negi",
+  title: "Hi, I'm Devanshu Negi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Express.js and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
-
-// Social Media Links
-
 
 // Skills Section
 
@@ -40,11 +37,10 @@ const skillsSection = {
   subTitle: "FULL STACK DEVELOPER WHO DEVELOPS FULLY FUNCTIONAL WEBSITE",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase/ AWS "
     )
   ],
 
@@ -76,10 +72,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
+    
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -114,8 +107,8 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "70%" //Insert relative proficiency in percentage
+      Stack: "Frontend/Design", //stack or technology you have experience in
+      progressPercentage: "70%" // relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -129,51 +122,16 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-// Work experience section
-
-const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
-  experience: [
-    {
-      role: "Software Developer",
-      company: "Kenko Health",
-      companylogo: require("./assets/images/kenko.jpeg"),
-      date: "July 2021 - January 2023",
-      desc: "Built tech solutions for a startup making healthcare affordable in India. Worked closely with teams to create tools that let users access doctor consultations, medicines, and health plans through a subscription model."
-      
-    },
-    {
-      role: "Senior Software Engineer",
-      company: "Koo",
-      companylogo: require("./assets/images/Koo2.png"),
-      date: "March 2023 - February 2024",
-      desc: "Helped build India’s homegrown social media platform where millions share thoughts in their native languages! Worked on features like multilingual posts, media sharing, and scaling the app to support diverse communities. Proud to empower authentic, local conversations in a Twitter-like space made for India."
-    }
-  ]
-};
-
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
-
-// Some big projects you have worked on
-
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  email_address: "anujsinghrawat990@gmail.com"
+  email_address: "devanshunegi1656@gmail.com"
 };
 
-// Twitter Section
 
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
-};
-
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -181,8 +139,7 @@ export {
   splashScreen,
   skillsSection,
   techStack,
-  workExperiences,
+  //workExperiences,
   contactInfo,
-  twitterDetails,
   isHireable
 };

@@ -14,26 +14,16 @@ export default function Projects() {
   const projectList = [
     {
       id: 1,
-      name: "Time-to-have-more-fun",
-      description: "Stack - Next.js ,Tailwind CSS ,firebase",
-      githubUrl: "https://github.com/Anuj-S-Rawat/time-to-have-more-fun-main.git",
-      websiteUrl: "https://time-to-have-more-fun.vercel.app/",
+      name: "Secure Smart Home Accessibility System",
+      description: "Stack - React.js ,Tailwind CSS ,Express.js, prisma",
+      githubUrl: "https://github.com/code-DN/SecureHome",
     },
     {
       id: 2,
       name: "Job Portal",
-      description: "Stack - React.js, Tailwind CSS, Node.js, Express.js",
-      githubUrl: "https://github.com/Anuj-S-Rawat/Job-Portal.git",
-      websiteUrl: "https://mern-job-portal-eight.vercel.app/",
+      description: "Stack - React.js, Node.js, Express.js",
+      githubUrl: "https://github.com/code-DN/hirrd-app",
     },
-    {
-      id: 3,
-      name: "Ecommerce-Website",
-      description: "Stack - React.js, Redux, Node.js, Express.js, Mongoose",
-      githubUrl: "https://github.com/Anuj-S-Rawat/Ecommerce.git",
-      websiteUrl: "https://mern-store-gold.vercel.app/",
-    },
-    // Add more projects if you want
   ];
 
   return (
